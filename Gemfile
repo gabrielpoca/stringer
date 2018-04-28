@@ -13,7 +13,6 @@ end
 
 group :development, :test do
   gem "capybara", "~> 2.6"
-  gem "coveralls", "~> 0.7", require: false
   gem "faker", "~> 1.2"
   gem "pry-byebug", "~> 1.2"
   gem "rack-test", "~> 0.6"
@@ -42,7 +41,7 @@ gem "sinatra", "~> 1.4.8", ">= 1.4.8"
 gem "sinatra-activerecord", "~> 1.2", ">= 1.2.3"
 gem "sinatra-contrib", "~> 1.4.7"
 gem "sinatra-flash", "~> 0.3"
-gem "sprockets", "~> 3.0"
+gem "sprockets", "~> 3.7"
 gem "sprockets-helpers"
 gem "thread", "~> 0.2"
 gem "uglifier"
